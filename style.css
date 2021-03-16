@@ -1,0 +1,79 @@
+/* Estilos generales */
+body {
+  background:#19a1ad;
+  margin: 0;
+  overflow: hidden;
+}
+/* Svg background */
+#profile {
+  overflow: hidden;
+}
+#topPattern{
+  position: absolute;
+  transform: translateY(-555px) translateX(-325px);
+}
+
+#bottomPattern{
+  position: absolute;
+  transform: translateY(325px) translateX(625px);
+}
+/* Card */
+#card{
+  position: absolute;
+  width: 330px;
+  height: 350px;
+  background-color: #fff;
+  border-radius: 13px;
+  transform: translateX(515px) translateY(148px);
+  z-index: 30;
+  overflow: hidden;
+  align-items: center;
+  text-align: center;
+  font-size: 18px;
+  filter: drop-shadow(2px 2px 5px hsl(0, 0%, 59%));
+}
+#insideBanner{
+  transform:translateY(-10px);
+}
+/* Card img */
+#profileImg{
+  position: absolute;
+  border-radius: 50px;
+  border: 5px solid #fff;
+  transform: translateX(-50px) translateY(-57px)
+}
+/* Texts */
+#profileName{
+  height: 60px;
+  margin: auto;
+  transform: translateY(70px)
+}
+#profileStats{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-evenly;
+  transform: translateY(70px);
+  border-top: 1px solid hsla(0, 0%, 59%, 0.246);
+  padding-top: 20px;
+}
+
+
+#profile #card p{
+  font-family: 'Kumbh Sans', sans-serif;
+  font-weight: 700;
+  color: hsl(229, 23%, 23%);
+  margin-bottom:0;
+  margin-top: 0;
+}
+
+.span{
+  font-weight:400;
+  color: hsl(0, 0%, 59%)
+}
+.little{
+  font-size: 11px;
+}
+.medium{
+  font-size: 13px;
+  margin-top: 10px;
+}
