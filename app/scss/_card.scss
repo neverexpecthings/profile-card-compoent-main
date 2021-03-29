@@ -1,0 +1,36 @@
+@import "variables";
+//Card
+.card {
+  min-width: 20.375rem;
+  min-height: 23.375rem;
+  background-color: white;
+  border-radius: 0.875rem;
+  background-image: url("/images/bg-pattern-card.svg");
+  background-repeat: no-repeat;
+}
+//Person Info
+.person {
+  min-height: 17.8125rem;
+  padding-top: 5.75rem;
+  border-bottom: 1px solid $Dark-gray-line;
+  &img {
+    border-radius: 50%;
+  }
+}
+
+h1 {
+  color: $Very-dark-des-blue;
+  font-size: 1.125rem;
+  margin-top: 1.6875rem;
+  margin-bottom: 1rem;
+  font-weight: $Bold;
+}
+
+span {
+  margin-left: 0.5rem;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1.6875rem;
+}

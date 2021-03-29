@@ -7,67 +7,40 @@
   <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/dist/styles.css">
   <title>Frontend Mentor | Profile card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution {
-      font-size: 11px;
-      text-align: center;
-    }
-
-    .attribution a {
-      color: hsl(228, 45%, 44%);
-    }
-  </style>
 </head>
 
 <body>
-  <div id="profile">
-    <img id="topPattern" src="images/bg-pattern-top.svg" alt="top pattern">
-    <div id="card">
-      <img id="insideBanner" src="images/bg-pattern-card.svg" alt="InsideBanner">
-      <img id="profileImg" src="images/image-victor.jpg" alt="Profile image">
-      <div id="profileName">
-        <p>Victor Crest <span class="span">26</span></p>
-        <p><span class="span little medium">London</span></p>
+  <!-- card-->
+  <div class="container flex flex-jc-c flex-ai-c ">
+    <!--First element, like img person, name, age and country -->
+    <div class="card ">
+      <div class="person flex flex-jc-c flex-ai-c flex-fd-c">
+        <img class="personimg" src="/images/image-victor.jpg" alt="Person image">
+        <h1>Victor Crest <span class="span  ">26</span></h1>
+        <p class="span country">London</p>
       </div>
-      <div id="profileStats">
-        <div>
-          <p>80K</p>
-          <p><span class="span little">Followers</span></p>
+      <!--I divide by two part the card, this one with the stats-->
+      <div class="stats flex flex-jc-sa flex-ai-c ">
+        <div class="stat">
+          <h1 class="txt-a">80K</h1>
+          <p class="txt-a stats-name span">Followers</p>
         </div>
-        <div>
-          <p>803K</p>
-          <p><span class="span little">Likes</span></p>
+        <div class="stat">
+          <h1 class="txt-a">803K</h1>
+          <p class="txt-a stats-name span">Likes</p>
         </div>
-        <div>
-          <p>80K</p>
-          <p><span class="span little">Photos</span></p>
+        <div class="stat">
+          <h1 class="txt-a">1.4K</h1>
+          <p class="txt-a stats-name span">Photos</p>
         </div>
       </div>
     </div>
-    <img id="bottomPattern" src="images/bg-pattern-bottom.svg" alt="bottom pattern">
   </div>
-  <!-- Victor Crest
-  26
-  London
-
-  80K
-  Followers
-
-  803K
-  Likes
-
-  1.4K
-  Photos -->
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+  <!--Finished card-->
 </body>
 
 </html>

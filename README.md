@@ -1,13 +1,12 @@
 # Frontend Mentor - Profile card component solution
 
-This is a solution to the [Profile card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is my solution to the [Profile card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
 - [Frontend Mentor - Profile card component solution](#frontend-mentor---profile-card-component-solution)
   - [Table of contents](#table-of-contents)
     - [The challenge](#the-challenge)
-    - [Screenshot](#screenshot)
     - [Links](#links)
   - [My process](#my-process)
     - [What I learned](#what-i-learned)
@@ -17,9 +16,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### The challenge
 
-- Build out the project to the designs provided
-
-### Screenshot
+- Build out the project to the designs provided, another goal was start using SASS, i found myself enjoying it!
 
 ### Links
 
@@ -28,17 +25,23 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ## My process
 
+I started my solution using a couple of different sass files, one for global variables, one for card and the variables. I found that the background it's been more difficult than i expected (still struggling with that D:!)
+
 ### What I learned
+
+This is my first try with sass, i didn't understand how to use variables and imports, but after a research i got it.
 
 ### Useful resources
 
 - [Example resource 1]
-
+    CSS TRICKS PAGE
+    AND CODER CODER YOUTUBE CHANNEL!
+  
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@neverexpecthings](https://www.frontendmentor.io/profile/neverexpecthings)
+- Twitter - [@neverexpectthi1](https://www.twitter.com/neverexpectthi1)
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+MOBILE FIRST...
